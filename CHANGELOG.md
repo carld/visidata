@@ -1,11 +1,33 @@
 # VisiData version history
 
-## v0.61
+## v0.92 (2017-07-11)
+- `F`requency sheet groups numeric data into intervals
+   - added `histogram_bins` and `histogram_even_interval` options
+   - added `w` command on the sheet that toggles `histogram_even_interval`
+- change key for 'eval Python expression as new pyobj sheet' from Ctrl-O to Ctrl-X
+
+## v0.91 (2017-06-28)
+- Make options automatically typed based on default
+- Documentation cleanups
+- Remove R command (set filetype on CLI)
+
+## v0.80
+- tour of screenshot.gif
+- regex transform now `*` (';' is still regex split)
+- Make regex search/select to work more like vim
+- Move several non-essential commands out of vd.py
+- change license of vd.py to MIT
+- vdtutor start
+- currency type with `$`; str type moved to `~`; remove type autodetect
+- www/ for landing page
+- move from .md to .rst for documentation
+
+## v0.61 (2017-06-12)
 - colorizers
 - `g[` and `g]` to sort by all key columns
 - `;` and `.` experimental regex commands
 
-## v0.59
+## v0.59 (2017-05-31)
 - pivot sheets with `W`
 - undo with `BACKSPACE` and replay with `ga`
 - dev guide and user guide
